@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+body{
+	background-color: black;
+	font-family: "Arvo";
+}
+
+#header {
+	font-family: "Arvo";
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+.block {
+	height: 700px;
+	width: 1600px;
+
+}
+
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+
+.snowflake:hover {
+    cursor: default;
+}
+
+.wrapper {
+        width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(7, 50px)
+        grid-template-rows: repeat(15, 50px);
+     }
+
+
+
+
+.THPN {
+	grid-column: 1 / 3;
+	grid-row: 1 / 5;
+}
+
+.thpnbutton {
+	margin: auto;
+	display: block;
+	background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Ippudo {
+	grid-column: 3 / 5;
+	grid-row: 1 / 5;
+}
+
+.ippudobutton {
+	margin: auto;
+	display: block;
+	background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.CH {
+	grid-column: 5 / 7;
+	grid-row: 1 / 5;
+}
+
+.CHbutton {
+	margin: auto;
+	display: block;
+	background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.SJFZ {
+	grid-column: 2 / 4;
+	grid-row: 6 / 10;
+}
+
+.sjfzbutton {
+	margin: auto;
+	display: block;
+	background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Fried {
+	grid-column: 4 / 6;
+	grid-row: 6 / 10;
+}
+
+.friedbutton {
+	margin: auto;
+	display: block;
+	background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+.mainimages {
+	height: 300px;
+	width: 400px;
+}
+
+
+.showtasty {
+	color: white;
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	display:none;
+
+}
+
+.showippudo {
+	color: white;
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	display: none;
+}
+
+.showCH {
+	color: white;
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	display: none;
+
+
+}
+
+.showsjfz {
+	color: white;
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	display: none;
+}
+
+.showfried {
+	color: white;
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	display: none;
+}
+
+
+
+
+
+.carousel {
+	display: inline-block;
+}
+
+.caption {
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+
+a:hover {
+	color: pink;
+
+}
+
